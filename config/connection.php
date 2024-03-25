@@ -8,6 +8,6 @@
   if(!$connection){
     die ("Koneksi dengan database gagal: ".mysqli_connect_errno()." - ".mysqli_connect_error());
   } else {
-    echo "Koneksi berhasil";
+    // echo "Koneksi berhasil";
   }
 ?>
