@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>Sign Up</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 <body class="homepage is-preload">
     <div id="page-wrapper">
 
@@ -20,7 +22,7 @@
 
         <!-- Formulir Sign Up -->
         <section id="signup-section" class="box">
-            <form id="signup-form" action="admin.php" method="POST">
+            <form id="signup-form" action="backend/be-signup.php" method="POST">
                 <div class="row gtr-50">
                     <div class="col-6 col-12-mobile">
                         <input type="text" name="username" id="username" placeholder="Username" required>
@@ -41,12 +43,13 @@
             </form>
         </section>
 
+
         <!-- Link to Signup -->
         <section id="signup-link" class="box" style="font-size: 16px; font-family: Arial, sans-serif;">
             <p style="margin: 0; color:black">Already have an account? <a href="index.php" style="text-decoration: none; color: #a78b12; font-weight: bold;">Login here</a></p>
-        </section>      
+        </section>
 
-        <script>
+        <!-- <script>
             // Function to redirect to beranda.php after login form submission
             document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("signup-form").addEventListener("submit", function(event) {
@@ -55,7 +58,8 @@
                     window.location.href = "admin.php";
                 });
             });
-        </script>
+        </script> -->
     </div>
 </body>
+
 </html>
