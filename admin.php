@@ -162,7 +162,7 @@
             </ul>
         </section>
     </main>
-    <a href="index.html" class="logout-btn">Logout</a> <!-- Tautan untuk logout admin -->
+    <a href="index.php" class="logout-btn">Logout</a> <!-- Tautan untuk logout admin -->
 
     <script>
         function setMenuItem(item) {

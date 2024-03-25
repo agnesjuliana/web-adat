@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Pakaian Adat</title>
+    <title>Tarian Adat</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -117,7 +117,7 @@
             <div class="logo container">
                 <div>
                     <h1>
-                        <a href="index.html" id="logo">Pakaian Adat</a>
+                        <a href="index.php" id="logo">Tarian Adat</a>
                     </h1>
                 </div>
             </div>
@@ -127,13 +127,13 @@
         <nav id="nav">
             <nav id="nav" style="font-family: Arial, sans-serif;">
             <ul>
-                <li><a href="beranda.html"><img src="images/home.png" alt="Home"></a></li>
-                <li><a href="rumah-adat.html">Rumah Adat</a></li>
-                <li><a href="pakaian-adat.html">Pakaian Adat</a></li>
-                <li><a href="alat-musik.html">Alat Musik Daerah</a></li>
-                <li><a href="tarian-adat.html">Tarian Adat</a></li>
-                <li><a href="makanan.html">Makanan Tradisional</a></li>
-                <li><a href="senjata.html">Senjata Tradisional</a></li>
+                <li><a href="beranda.php"><img src="images/home.png" alt="Home"></a></li>
+                <li><a href="rumah-adat.php">Rumah Adat</a></li>
+                <li><a href="pakaian-adat.php">Pakaian Adat</a></li>
+                <li><a href="alat-musik.php">Alat Musik Daerah</a></li>
+                <li><a href="tarian-adat.php">Tarian Adat</a></li>
+                <li><a href="makanan.php">Makanan Tradisional</a></li>
+                <li><a href="senjata.php">Senjata Tradisional</a></li>
             </ul>
         </nav>
         <br>

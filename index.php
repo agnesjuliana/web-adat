@@ -10,7 +10,7 @@
     <!-- Header -->
     <header id="header">
         <div class="logo container">
-            <h1><a href="index.html" id="logo">Budaya Nusantara</a></h1>
+            <h1><a href="index.php" id="logo">Budaya Nusantara</a></h1>
         </div>
     </header>
 
@@ -22,7 +22,7 @@
             <!-- Pilihan Admin -->
             <a href="#login-section" class="button scrolly">Admin</a>
             <!-- Pilihan Pengguna -->
-            <a href="beranda.html" class="button scrolly">Pengunjung</a>
+            <a href="beranda.php" class="button scrolly">Pengunjung</a>
         </div>
     </section>
     <br> <br> <br>
@@ -30,7 +30,7 @@
     <!-- Formulir Login -->
     <section id="login-section" class="box">
         <h2>Login</h2>
-        <form id="login-form" action="admin.html" method="POST">
+        <form id="login-form" action="admin.php" method="POST">
             <div class="row gtr-50">
                 <div class="col-6 col-12-mobile">
                     <input type="text" name="username" id="username" placeholder="Username" required>
@@ -45,16 +45,16 @@
         </form>
 
         <!-- Tulisan Create account? Sign Up -->
-        <p style="margin-top: 0; color: #f7f1de; text-align: center;">Create account? <a href="signup.html" style="text-decoration: none; color: #e7e3d5; font-weight: bold;">Sign Up</a></p>
+        <p style="margin-top: 0; color: #f7f1de; text-align: center;">Create account? <a href="signup.php" style="text-decoration: none; color: #e7e3d5; font-weight: bold;">Sign Up</a></p>
     </section>
 
     <script>
-        // Function to redirect to beranda.html after login form submission
+        // Function to redirect to beranda.php after login form submission
         document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("login-form").addEventListener("submit", function(event) {
                 event.preventDefault(); // Prevent the default form submission
-                // Redirect to beranda.html
-                window.location.href = "admin.html";
+                // Redirect to beranda.php
+                window.location.href = "admin.php";
             });
         });
     </script>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Makanan Tradisional</title>
+    <title>Alat Musik Daerah</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -117,7 +117,7 @@
             <div class="logo container">
                 <div>
                     <h1>
-                        <a href="index.html" id="logo">Makanan Tradisional</a>
+                        <a href="index.php" id="logo">Alat Musik Daerah</a>
                     </h1>
                 </div>
             </div>
@@ -127,13 +127,13 @@
         <nav id="nav">
             <nav id="nav" style="font-family: Arial, sans-serif;">
             <ul>
-                <li><a href="beranda.html"><img src="images/home.png" alt="Home"></a></li>
-                <li><a href="rumah-adat.html">Rumah Adat</a></li>
-                <li><a href="pakaian-adat.html">Pakaian Adat</a></li>
-                <li><a href="alat-musik.html">Alat Musik Daerah</a></li>
-                <li><a href="tarian-adat.html">Tarian Adat</a></li>
-                <li><a href="makanan.html">Makanan Tradisional</a></li>
-                <li><a href="senjata.html">Senjata Tradisional</a></li>
+                <li><a href="beranda.php"><img src="images/home.png" alt="Home"></a></li>
+                <li><a href="rumah-adat.php">Rumah Adat</a></li>
+                <li><a href="pakaian-adat.php">Pakaian Adat</a></li>
+                <li><a href="alat-musik.php">Alat Musik Daerah</a></li>
+                <li><a href="tarian-adat.php">Tarian Adat</a></li>
+                <li><a href="makanan.php">Makanan Tradisional</a></li>
+                <li><a href="senjata.php">Senjata Tradisional</a></li>
             </ul>
         </nav>
         <br>
@@ -172,29 +172,29 @@
             { name: "Bengkulu", image: "bali.jpg", description: "Serunai merupakan alat musik tradisional Indonesia yang berasal dari Suku Pekal di Kabupaten Muko-muko dan berbentuk seperti terompet. Cara menggunakan alat musik ini adalah dengan cara ditiup. Serunai terbuat dari Bambu yang tumbuh di tepi sungai, bambu tersebut harus tipis sehingga mudah diolah dan bersuara nyaring. Di Bengkulu, Serunai sering dijumpai saat upacara ataupun acara adat." },
             { name: "Daerah Istimewa Yogyakarta", image: "bali.jpg", description: "Daerah Istimewa Yogyakarta." },
             { name: "DKI Jakarta", image: "alat-musik/jakarta.webp", description: "Alat musik tradisional tehyan berasal dari DKI Jakarta dan telah menjadi salah satu alat musik yang kehadirannya sudah mulai langka. Alat musik gesek ini merupakan hasil perpaduan suku Betawi dan kebudayaan Tionghoa. Cara memainkan Tehyan pun cukup mudah, cukup menggesek senar dawai seperti saat sedang bermain biola. Jenis alat ini terbagi menjadi 3 berdasarkan bentuk dan ukurannya, ada tehyan, sukong, dan kong ahyan. Seringkali masyarakat memainkannya pada acara kebudayaan Betawi seperti penampilan ondel-ondel, lenong Betawi, serta pertunjukan gambang kromong." },
-            { name: "Gorontalo", image: "bali.jpg", description: "Penjelasan Provinsi Gorontalo." },
-            { name: "Jambi ", image: "bali.jpg", description: "Salah satu alat musik terkenal dari Jambi adalah Cangor. Cangor termasuk ke dalam jenis musik idio-kordofon. Alat musik ini terbuat dari bahan bambu yang dipotong dengan panjang sekitar 40 cm, dan pada bagian kulit bambu dicungkil dan diganjal dengan bantalan kayu. Cangor dimainkan dengan cara dipukul dengan menggunakan dua tongkat yang terbuat dari bahan rotan. Alat musik ini biasa dimainkan oleh para petani saat sedang istirahat setelah mengurus kebun di ladang." },
+            { name: "Gorontalo", image: "alat-musik/gorontalo.jpg", description: "Penjelasan Provinsi Gorontalo." },
+            { name: "Jambi ", image: "alat-musik/jambi.jpg", description: "Salah satu alat musik terkenal dari Jambi adalah Cangor. Cangor termasuk ke dalam jenis musik idio-kordofon. Alat musik ini terbuat dari bahan bambu yang dipotong dengan panjang sekitar 40 cm, dan pada bagian kulit bambu dicungkil dan diganjal dengan bantalan kayu. Cangor dimainkan dengan cara dipukul dengan menggunakan dua tongkat yang terbuat dari bahan rotan. Alat musik ini biasa dimainkan oleh para petani saat sedang istirahat setelah mengurus kebun di ladang." },
             { name: "Jawa Barat", image: "alat-musik/jabar.webp", description: "Alat musik tradisional terkenal di Jawa Barat adalah angklung. Alat musik tradisional ini terbuat dari bambu. Angklung dimainkan dengan cara digoyangkan. Setelah digoyangkan maka bunyinya akan keluar. Bunyi ini terjadi karena adanya benturan badan pipa bambu. Bunyi yang bergetar menghasilkan susunan nada 2, 3 sampai dengan 4 nada dalam setiap ukuran baik besar maupun kecil." },
             { name: "Jawa Tengah", image: "alat-musik/jateng.webp", description: "Gamelan adalah salah satu alat musik tradisional Indonesia yang berasal dari Jawa Tengah. Alat musik ini diduga sudah ada di Jawa sejak tahun 404 Masehi, dilihat dari adanya penggambaran masa lalu di relief Candi Borobudur dan Prambanan. Gamelan merupakan seperangkat instrumen yang dibunyikan dari beberapa alat musik, seperti di antaranya gambang, gendang, dan gong. Perpaduan ini memiliki sistem nada non diatonis yang menyajikan suara indah jika dimainkan secara harmonis." },
-            { name: "Jawa Timur", image: "bali.jpg", description: "Penjelasan Provinsi Jawa Timur." },
-            { name: "Kalimantan Barat", image: "bali.jpg", description: "Penjelasan Provinsi Kalimantan Barat." },
+            { name: "Jawa Timur", image: "alat-musik/jatim.jpg", description: "Penjelasan Provinsi Jawa Timur." },
+            { name: "Kalimantan Barat", image: "alat-musik/kalbar.jpg", description: "Penjelasan Provinsi Kalimantan Barat." },
             { name: "Kalimantan Selatan", image: "alat-musik/kalsel.webp", description: "Alat musik khas dari Kalimantan Selatan adalah panting. Alat musik panting merupakan salah satu alat musik tradisional Indonesia yang secara pemetaan tumbuh dan berkembang di daerah Tapin, Kalimantan Selatan. Panting terbuat dari kayu, kulit zat pewarna, dan senar. Kayu yang digunakan di antaranya kayu pulantan, kayu kambang, kayu jingah, kayu halaban, dan lain-lain. Sedangkan bahan kulit diambil dari kulit hewan yang hidup di hutan seperti kulit kijang, rusa, atau kulit hewan melata seperti kulit ular puraca, ular sawah, dan biawak. Panting dimainkan dengan cara dipetik." },
-            { name: "Kalimantan Tengah", image: "bali.jpg", description: "Penjelasan Provinsi Kalimantan Tengah." },
-            { name: "Kalimantan Timur", image: "bali.jpg", description: "Penjelasan Provinsi Kalimantan Timur." },
-            { name: "Kalimantan Utara", image: "bali.jpg", description: "Penjelasan Provinsi Kalimantan Utara." },
-            { name: "Kepulauan Riau", image: "bali.jpg", description: "Penjelasan Provinsi Kepulauan Riau." },
+            { name: "Kalimantan Tengah", image: "alat-musik/kalteng.jpg", description: "Penjelasan Provinsi Kalimantan Tengah." },
+            { name: "Kalimantan Timur", image: "alat-musik/kaltim.jpg", description: "Penjelasan Provinsi Kalimantan Timur." },
+            { name: "Kalimantan Utara", image: "alat-musik/kalut.jpg", description: "Penjelasan Provinsi Kalimantan Utara." },
+            { name: "Kepulauan Riau", image: "alat-musik/kepri.jpg", description: "Penjelasan Provinsi Kepulauan Riau." },
             { name: "Lampung", image: "alat-musik/lampung.webp", description: "Di Lampung, alat musik khasnya adalah kompang. Kompang merupakan alat musik tradisional Indonesia yang dibuat dari kayu dan kulit kambing. Kompang digunakan dengan cara dipukul dan biasanya diiringi dengan lagu atau syair bernuansa islami. Dalam perkembangannya, Kompang biasanya dimainkan pada beberapa acara seperti upacara adat, acara pernikahan, dan penyambutan pejabat yang sedang berkunjung." },
             { name: "Maluku", image: "alat-musik/maluku.webp", description: "Alat musik tradisional Tifa bisa ditemukan di daerah Maluku. Alat musik ini terbuat dari sebatang kayu Lenggua yang dikosongkan isinya. Tifa juga bisa ditemukan di Papua, namun, bentuk antara Tifa dari Papua dan Maluku berbeda. Tifa Papua terdapat pegangan di sisinya, sementara Tifa Maluku hanya berbentuk tabung biasa tanpa pegangan. Cara memainkannya dengan cara dipukul." },
-            { name: "Maluku Utara", image: "bali.jpg", description: "Penjelasan Provinsi Maluku Utara." },
-            { name: "Nusa Tenggara Barat", image: "bali.jpg", description: "Penjelasan Provinsi Nusa Tenggara Barat." },
+            { name: "Maluku Utara", image: "alat-musik/malkut.jpg", description: "Penjelasan Provinsi Maluku Utara." },
+            { name: "Nusa Tenggara Barat", image: "alat-musik/ntb.jpg", description: "Penjelasan Provinsi Nusa Tenggara Barat." },
             { name: "Nusa Tenggara Timur", image: "alat-musik/ntt.webp", description: "Dari Nusa Tenggara Timur (NTT), memiliki alat musik tradisional bernama sasando. Sasando memiliki bentuk yang sangat unik dan berbeda dari alat musik petik lainnya yakni berbentuk tabung panjang. Sasando sendiri terbuat dari bambu, kayu, paku penyangga, senar string, dan daun lontar. Cara memainkan sasando adalah dengan menggunakan kedua tangan untuk memetik dawainya. Seperti bermain gitar." },
-            { name: "Papua", image: "bali.jpg", description: "Penjelasan Provinsi Papua." },
-            { name: "Papua Barat", image: "bali.jpg", description: "Alat musik Papua barat memiliki keunikan tersendiri. Salah satu contohnya adalah guoto. Guoto adalah alat musik yang dimainkan dengan cara dipetik. Guoto terbuat dari kulit binatang lembu. Alat musik ini memiliki senar yang bisa dipetik dengan tangan." },
-            { name: "Papua Barat Daya", image: "bali.jpg", description: "Alat musik tradisional yang terkenal dari Papua Barat Daya adalah Korambi, yang terbuat dari bambu. Korambi sendiri berasal dari suku Tehit di Kabupaten Sorong. Korambi sendiri merupakan alat musik tradisional yang digunakan untuk mengiringi kesenian dan tarian adat. Cara memainkannya dengan cara dipetik dan biasa dimainkan bersama dengan Fuu dan Tifa." },
-            { name: "Papua Pegunungan", image: "bali.jpg", description: "Penjelasan Provinsi Papua Pegunungan." },
-            { name: "Papua Selatan", image: "bali.jpg", description: "Papua Selatan dengan ibukota Provinsi di Merauke, tentu memiliki alat musik tradisional. Salah satunya Butshake. Butshake memiliki bentuk yang unik dan terbuat dari bambu dan buah kenari. Cara memainkan alat musik ini sendiri dengan cara digoyangkan sehingga buah kenari saling menempel satu dengan lainnya dan menghasilkan suara musik. Butshake sendiri berasal dari suku Matu yang berada di Kabupaten Merauke, Papua Selatan." },
-            { name: "Papua Tengah", image: "bali.jpg", description: "Triton merupakan alat musik dari Papua Tengah yang berasal dari Nabire. Nabire sendiri merupakan ibukota Provinsi Papua Tengah. Triton merupakan alat musik tiup tradisional yang terdapat di tanah Papua. Alat musik ini dibuat dari kulit kerang yang biasanya ditemukan di wilayah Nabire. Cara memainkannya dengan ditiup. Alat musik ini digunakan untuk memanggil masyarakat agar berkumpul." },
-            { name: "Riau", image: "bali.jpg", description: "Penjelasan Provinsi Riau." },
+            { name: "Papua", image: "alat-musik/papua.jpg", description: "Penjelasan Provinsi Papua." },
+            { name: "Papua Barat", image: "alat-musik/papubar.jpg", description: "Alat musik Papua barat memiliki keunikan tersendiri. Salah satu contohnya adalah guoto. Guoto adalah alat musik yang dimainkan dengan cara dipetik. Guoto terbuat dari kulit binatang lembu. Alat musik ini memiliki senar yang bisa dipetik dengan tangan." },
+            { name: "Papua Barat Daya", image: "alat-musik/papuda.jpg", description: "Alat musik tradisional yang terkenal dari Papua Barat Daya adalah Korambi, yang terbuat dari bambu. Korambi sendiri berasal dari suku Tehit di Kabupaten Sorong. Korambi sendiri merupakan alat musik tradisional yang digunakan untuk mengiringi kesenian dan tarian adat. Cara memainkannya dengan cara dipetik dan biasa dimainkan bersama dengan Fuu dan Tifa." },
+            { name: "Papua Pegunungan", image: "alat-musik/pagung.jpg", description: "Penjelasan Provinsi Papua Pegunungan." },
+            { name: "Papua Selatan", image: "alat-musik/pasel.jpg", description: "Papua Selatan dengan ibukota Provinsi di Merauke, tentu memiliki alat musik tradisional. Salah satunya Butshake. Butshake memiliki bentuk yang unik dan terbuat dari bambu dan buah kenari. Cara memainkan alat musik ini sendiri dengan cara digoyangkan sehingga buah kenari saling menempel satu dengan lainnya dan menghasilkan suara musik. Butshake sendiri berasal dari suku Matu yang berada di Kabupaten Merauke, Papua Selatan." },
+            { name: "Papua Tengah", image: "alat-musik/pateng.jpg", description: "Triton merupakan alat musik dari Papua Tengah yang berasal dari Nabire. Nabire sendiri merupakan ibukota Provinsi Papua Tengah. Triton merupakan alat musik tiup tradisional yang terdapat di tanah Papua. Alat musik ini dibuat dari kulit kerang yang biasanya ditemukan di wilayah Nabire. Cara memainkannya dengan ditiup. Alat musik ini digunakan untuk memanggil masyarakat agar berkumpul." },
+            { name: "Riau", image: "alat-musik/riau.jpg", description: "Penjelasan Provinsi Riau." },
             { name: "Sulawesi Barat", image: "bali.jpg", description: "Sulawesi Barat memiliki alat musik tradisional bernama Pakeke. Ini adalah alat musik yang terbuat dari bambu berukuran kecil sekitar 10cm. Bambu diberi lubang tiga sampai enam lubang, pada ujung bambu dililit daun lontar yang bentuknya menyerupai terompet sebagai pembawa efek bunyi khas yang dihasilkan saat ditiup." },
             { name: "Sulawesi Selatan", image: "alat-musik/sulsel.webp", description: "Alat musik tradisional dari provinsi Sulawesi Selatan salah satunya bernama puik-puik (puwi-puwi). Penggunaan alat musik sangat mudah sebab hanya ditiup saja. Seringkali alat ini digunakan saat melakukan acara-acara adat, seperti mengiringi tari akkarena dan dimainkan saat acara pernikahan." },
             { name: "Sulawesi Tengah", image: "bali.jpg", description: "Penjelasan Provinsi Sulawesi Tengah." },
@@ -229,7 +229,7 @@
 
         function showProvinceInfo(province) {
             provinceTitle.textContent = province.name;
-            provinceImage.src = `images/${province.image}`;
+            provinceImage.src = `/images/${province.image}`;
             provinceDescription.textContent = province.description;
             provinceInfo.classList.remove("hidden");
         }

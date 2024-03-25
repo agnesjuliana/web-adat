@@ -13,14 +13,14 @@
         <header id="header">
             <div class="logo container">
                 <div>
-                    <h1><a href="index.html" id="logo">Sign Up</a></h1>
+                    <h1><a href="index.php" id="logo">Sign Up</a></h1>
                 </div>
             </div>
         </header>
 
         <!-- Formulir Sign Up -->
         <section id="signup-section" class="box">
-            <form id="signup-form" action="admin.html" method="POST">
+            <form id="signup-form" action="admin.php" method="POST">
                 <div class="row gtr-50">
                     <div class="col-6 col-12-mobile">
                         <input type="text" name="username" id="username" placeholder="Username" required>
@@ -43,16 +43,16 @@
 
         <!-- Link to Signup -->
         <section id="signup-link" class="box" style="font-size: 16px; font-family: Arial, sans-serif;">
-            <p style="margin: 0; color:black">Already have an account? <a href="index.html" style="text-decoration: none; color: #a78b12; font-weight: bold;">Login here</a></p>
+            <p style="margin: 0; color:black">Already have an account? <a href="index.php" style="text-decoration: none; color: #a78b12; font-weight: bold;">Login here</a></p>
         </section>      
 
         <script>
-            // Function to redirect to beranda.html after login form submission
+            // Function to redirect to beranda.php after login form submission
             document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("signup-form").addEventListener("submit", function(event) {
                     event.preventDefault(); // Prevent the default form submission
-                    // Redirect to beranda.html
-                    window.location.href = "admin.html";
+                    // Redirect to beranda.php
+                    window.location.href = "admin.php";
                 });
             });
         </script>
