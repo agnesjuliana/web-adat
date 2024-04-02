@@ -641,7 +641,7 @@ form ::-moz-focus-inner {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  /* padding: 0, 5em 0; */
+  padding: 0, 5em 0;
   background: #d2b48c;
   margin: 0 auto;
 }
@@ -649,16 +649,16 @@ form ::-moz-focus-inner {
 #header .logo {
   position: relative;
   text-align: center;
-  /* border-top: solid 5px #D2B48C; */
-  /* top: 0.65em; */
+  border-top: solid 5px #D2B48C;
+  top: 0.65em;
 }
 
 #header .logo div {
   background: #d2b48c;
   position: relative;
   display: inline-block;
-  /* padding: 0 1.5em 0 1.5em; */
-  /* top: -0.65em; */
+  padding: 0 1.5em 0 1.5em;
+  top: -0.65em;
 }
 
 #header .logo h1 {

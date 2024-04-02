@@ -246,7 +246,7 @@
             if (currentIndex != 0) {
                 currentIndex = (currentIndex - 1);
                 provinceSelect.value = provinceList[currentIndex].province_id;
-                fetchItem(provinceList[currentIndex].province_id, 3);
+                fetchItem(provinceList[currentIndex].province_id, 5);
             }
         });
 
@@ -254,7 +254,7 @@
             if (currentIndex != provinceList.length - 1) {
                 currentIndex = (currentIndex + 1);
                 provinceSelect.value = provinceList[currentIndex].province_id;
-                fetchItem(provinceList[currentIndex].province_id, 3);
+                fetchItem(provinceList[currentIndex].province_id, 5);
             }
         });
     </script>
