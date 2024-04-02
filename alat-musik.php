@@ -20,6 +20,19 @@ mysqli_close($connection);
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f1de;
+            /* overflow-x: hidden; */
+            overflow-y: scroll;
+        }
+
+        #header .user-logo {
+            padding-top: 100px;
+        }
+
         #nav img {
             width: 20px;
             height: 20px;
@@ -34,20 +47,27 @@ mysqli_close($connection);
             color: inherit;
         }
 
-        .search-container {
+        .container-province {
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            margin-bottom: 20px;
+        }
+
+        .search-container {
+            margin-top: 60px;
+            width: 100%;
+            max-width: 90vw;
         }
 
         #province-select {
             margin-right: 10px;
             padding: 10px;
-            /* Penyesuaian padding */
             border-radius: 5px;
             border: 1px solid #ccc;
             background-color: #f9f9f9;
-            /* Warna latar belakang dropdown */
             font-size: 16px;
             color: #333;
             appearance: none;
@@ -55,92 +75,102 @@ mysqli_close($connection);
             background-position: right 10px center;
             cursor: pointer;
             width: 100%;
-            /* Menyesuaikan lebar dengan parent */
         }
 
         #province-select:hover {
             background-color: #f0f0f0;
-            /* Warna latar belakang saat hover */
         }
 
         #province-select:focus {
             outline: none;
-            /* Menghilangkan outline saat focus */
             border-color: #D2B48C;
-            /* Warna border saat focus */
         }
 
         #province-select option:hover {
             background-color: #D2B48C;
-            /* Warna latar belakang saat hover */
             color: #fff;
-            /* Warna teks saat hover */
         }
 
         .province-dropdown {
             position: relative;
             width: 200px;
-            /* Lebar dropdown */
         }
 
         .province-dropdown::after {
             content: '\25BC';
-            /* Simbol panah bawah */
             font-size: 14px;
-            /* Ukuran simbol panah */
             color: #555;
-            /* Warna simbol panah */
             position: absolute;
             top: 50%;
             right: 10px;
-            /* Jarak dari kanan */
             transform: translateY(-50%);
         }
 
         #search {
             flex-grow: 1;
-            /* membuat input 'Cari' memenuhi sisa ruang yang tersedia */
             padding: 8px;
-            /* menambahkan padding untuk memberikan ruang di dalam input */
             border-radius: 5px;
-            /* membuat sudut input membulat */
             border: 1px solid #ccc;
-            /* menambahkan garis tepi */
         }
 
         #search-btn {
             padding: 8px 20px;
-            /* memberikan padding di dalam tombol 'Cari' */
             border: none;
             border-radius: 5px;
             background-color: #D2B48C;
-            /* memberikan warna latar belakang */
             color: white;
-            /* warna teks */
             cursor: pointer;
         }
 
         #search-btn:hover {
             background-color: #D2B48C;
-            /* memberikan warna latar belakang pada hover */
         }
 
-        /* gaya untuk menampilkan informasi provinsi */
         .province-info {
-            margin-top: 20px;
             background-color: #f9f9f9;
-            /* memberikan warna latar belakang */
             border: 1px solid #ddd;
-            /* memberikan garis tepi */
             border-radius: 5px;
             padding: 20px;
+            width: 80vw;
         }
 
         .province-info img {
             max-width: 100%;
             max-height: 400px;
-            /* Atur tinggi maksimum gambar */
+            min-height: 30vw;
+            min-width: 30vw;
             border-radius: 5px;
+        }
+
+        .province-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .info-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-details {
+            display: flex;
+            align-items: center;
+        }
+
+        .info-details img {
+            max-width: 50%;
+            margin-right: 20px;
+            /* Adjust margin as needed */
+        }
+
+        #province-description {
+            flex-grow: 1;
+        }
+
+        .province-title {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 3rem;
         }
     </style>
 </head>
@@ -150,7 +180,7 @@ mysqli_close($connection);
 
         <!-- Header -->
         <header id="header">
-            <div class="logo container">
+            <div class="user-logo container">
                 <div>
                     <h1>
                         <a href="index.php" id="logo">Alat Musik Daerah</a>
@@ -160,42 +190,44 @@ mysqli_close($connection);
         </header>
 
         <!-- Nav -->
-        <nav id="nav">
-            <nav id="nav" style="font-family: Arial, sans-serif;">
-                <ul>
-                    <li><a href="beranda.php"><img src="images/home.png" alt="Home"></a></li>
-                    <li><a href="rumah-adat.php">Rumah Adat</a></li>
-                    <li><a href="pakaian-adat.php">Pakaian Adat</a></li>
-                    <li><a href="alat-musik.php">Alat Musik Daerah</a></li>
-                    <li><a href="tarian-adat.php">Tarian Adat</a></li>
-                    <li><a href="makanan.php">Makanan Tradisional</a></li>
-                    <li><a href="senjata.php">Senjata Tradisional</a></li>
-                </ul>
-            </nav>
-            <br>
+        <nav id="nav" style="font-family: Arial, sans-serif;">
+            <ul>
+                <li><a href="beranda.php"><img src="images/home.png" alt="Home"></a></li>
+                <li><a href="rumah-adat.php">Rumah Adat</a></li>
+                <li><a href="pakaian-adat.php">Pakaian Adat</a></li>
+                <li><a href="alat-musik.php">Alat Musik Daerah</a></li>
+                <li><a href="tarian-adat.php">Tarian Adat</a></li>
+                <li><a href="makanan.php">Makanan Tradisional</a></li>
+                <li><a href="senjata.php">Senjata Tradisional</a></li>
+            </ul>
+        </nav>
 
-            <!-- Main Content -->
-            <div class="container">
-                <br> <br> <br> <br>
-                <h2>Karya Budaya dari Berbagai Suku Bangsa</h2>
-                <div class="search-container">
-                    <div class="province-dropdown">
-                        <select id="province-select">
-                            <option value="">-- Pilih Provinsi --</option>
-                        </select>
-                    </div>
-                    <button id="prev-btn">Back</button> <!-- Tombol untuk navigasi ke provinsi sebelumnya -->
-                    <button id="next-btn">Next</button> <!-- Tombol untuk navigasi ke provinsi berikutnya -->
+        <!-- Main Content -->
+        <div class="container-province">
+            <!-- <h2>Karya Budaya dari Berbagai Suku Bangsa</h2> -->
+            <div class="search-container">
+                <div class="province-dropdown">
+                    <select id="province-select">
+                        <option value="">-- Pilih Provinsi --</option>
+                    </select>
                 </div>
-                <div class="province-info hidden" id="province-info">
-                    <h3 id="province-title"></h3>
-                    <img src="" alt="" id="province-image">
-                    <p id="province-description"></p>
+                <button id="prev-btn">Back</button> <!-- Tombol untuk navigasi ke provinsi sebelumnya -->
+                <button id="next-btn">Next</button> <!-- Tombol untuk navigasi ke provinsi berikutnya -->
+            </div>
+            <div class="province-info hidden" id="province-info">
+                <div class="info-content">
+                    <h3 id="province-title" class="province-title"></h3>
+                    <div class="info-details">
+                        <img src="" alt="" id="province-image">
+                        <p id="province-description"></p>
+                    </div>
                 </div>
             </div>
 
-
+        </div>
     </div>
+
+
 
     <script>
         const provinceSelect = document.getElementById("province-select");
