@@ -217,7 +217,7 @@
         // Fetch items when change option
         provinceSelect.addEventListener("change", () => {
             const selectedProvinceId = provinceSelect.value;
-            const selectedCategoryId = 5;
+            const selectedCategoryId = 4;
             currentIndex = provinceList.findIndex(province => province.province_id == selectedProvinceId);
 
             fetchItem(selectedProvinceId, selectedCategoryId);
