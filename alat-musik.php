@@ -283,7 +283,7 @@ mysqli_close($connection);
 
         function showProvinceInfo(item) {
             provinceTitle.textContent = item.name;
-            provinceImage.src = `images/${item.image}`;
+            provinceImage.src = `${item.image}`;
             provinceDescription.textContent = item.description;
             provinceInfo.classList.remove("hidden");
         }
